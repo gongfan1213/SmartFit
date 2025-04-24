@@ -1,5 +1,5 @@
-# Min-Project
-HomeWork
+![image](https://github.com/user-attachments/assets/eccb173f-1b6e-4a5a-b25a-233a57acb996)
+
 ```js
 Epoch 1/50 - Training: 100%|██████████| 54/54 [00:32<00:00,  1.65it/s]
 Epoch 1 Training Loss: 0.2382
