@@ -7,6 +7,7 @@
 
 ![image](https://github.com/user-attachments/assets/e2507647-a907-420c-a28d-11ce21df3198)
 
+mask2form ram崩溃
 
 ```js
 Epoch 1/50 - Training: 100%|██████████| 54/54 [00:24<00:00,  2.22it/s]
