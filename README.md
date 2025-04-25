@@ -1,3 +1,17 @@
+
+![image](https://github.com/user-attachments/assets/e19ebe85-0eca-4ff1-b6dd-13b924380abf)
+
+
+ prompt = f"Create a detailed recipe using {', '.join(ingredients)} with exact quantities and step-by-step instructions:\n1. Ingredients:\n"
+
+ ![image](https://github.com/user-attachments/assets/7aa1ca51-e335-41fa-97e3-bad250251b4f)
+
+# 下载ploty
+
+pip install plotly
+
+
+
 streamlit run app.py
 
 ```js
