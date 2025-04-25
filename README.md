@@ -42,6 +42,12 @@ ingredient_list = [
 
 ![image](https://github.com/user-attachments/assets/e2507647-a907-420c-a28d-11ce21df3198)
 
+![image](https://github.com/user-attachments/assets/2aa949f8-2db7-4a38-b75f-97d26602a489)
+
+
+![image](https://github.com/user-attachments/assets/863cbdfa-21c1-4dfa-9969-e01eb54413dd)
+
+
 mask2form ram崩溃
 
 ```js
