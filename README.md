@@ -1,3 +1,10 @@
+新增点击拍照上传
+
+![image](https://github.com/user-attachments/assets/3515efca-eb96-4f63-9834-18a556153dc0)
+
+
+![image](https://github.com/user-attachments/assets/caa09882-a8ff-4883-aa48-4e34c852a609)
+
 
 ![image](https://github.com/user-attachments/assets/e19ebe85-0eca-4ff1-b6dd-13b924380abf)
 
