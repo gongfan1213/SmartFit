@@ -1,3 +1,38 @@
+streamlit run app.py
+
+```js
+import openfoodfacts
+# Load model directly
+from transformers import AutoImageProcessor, SegformerForSemanticSegmentation
+
+
+
+# 设置随机种子保证可重复性
+torch.manual_seed(42)
+
+# 加载CLIP模型
+#device = "cuda" if torch.cuda.is_available() else "cpu"
+#model, preprocess = clip.load("ViT-B/32", device=device)
+processor = AutoImageProcessor.from_pretrained("priteshkeleven/FoodSeg103-mit-b0-fine-tuned")
+model = SegformerForSemanticSegmentation.from_pretrained("priteshkeleven/FoodSeg103-mit-b0-fine-tuned")
+# 定义食材候选列表（可根据需要扩展）
+ingredient_list = [
+    "background",
+    "candy", "egg tart", "french fries", "chocolate", "biscuit", "popcorn", "pudding", "ice cream", "cheese butter",
+    "cake", "wine", "milkshake", "coffee", "juice", "milk", "tea", "almond", "red beans", "cashew",
+    "dried cranberries", "soy", "walnut", "peanut", "egg", "apple", "date", "apricot", "avocado", "banana",
+    "strawberry", "cherry", "blueberry", "raspberry", "mango", "olives", "peach", "lemon", "pear", "fig",
+    "pineapple", "grape", "kiwi", "melon", "orange", "watermelon", "steak", "pork", "chicken duck", "sausage",
+    "fried meat", "lamb", "sauce", "crab", "fish", "shellfish", "shrimp", "soup", "bread", "corn", "hamburg",
+    "pizza", "hanamaki baozi", "wonton dumplings", "pasta", "noodles", "rice", "pie", "tofu", "eggplant",
+    "potato", "garlic", "cauliflower", "tomato", "kelp", "seaweed", "spring onion", "rape", "ginger", "okra",
+    "lettuce", "pumpkin", "cucumber", "white radish", "carrot", "asparagus", "bamboo shoots", "broccoli",
+    "celery stick", "cilantro mint", "snow peas", "cabbage", "bean sprouts", "onion", "pepper", "green beans",
+    "French beans", "king oyster mushroom", "shiitake", "enoki mushroom", "oyster mushroom", "white button mushroom",
+    "salad", "other ingredients"
+]
+```
+
 
 ![image](https://github.com/user-attachments/assets/527199ac-8029-4aef-a8e4-33c85141df31)
 
