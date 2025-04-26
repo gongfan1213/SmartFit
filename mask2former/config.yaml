@@ -1,0 +1,6 @@
+batch_size: 8                        # Batch size
+learning_rate: 0.00005               # Learning rate
+epochs: 100                          # Number of epochs
+save_path: 'd:/FoodSeg_mask2former/pretrained_model11'      # Checkpoint save path
+load_checkpoint: null                # Checkpoint to load (or null)
+log_dir: 'd:/FoodSeg_mask2former/logs'  # TensorBoard log dir

@@ -1,0 +1,37 @@
+{
+  "_name_or_path": "BAAI/seggpt-vit-large",
+  "architectures": [
+    "SegGptForImageSegmentation"
+  ],
+  "beta": 0.01,
+  "decoder_hidden_size": 64,
+  "drop_path_rate": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 1024,
+  "image_size": [
+    896,
+    448
+  ],
+  "initializer_range": 0.02,
+  "intermediate_hidden_state_indices": [
+    5,
+    11,
+    17,
+    23
+  ],
+  "layer_norm_eps": 1e-06,
+  "merge_index": 2,
+  "mlp_dim": 4096,
+  "mlp_ratio": 4.0,
+  "model_type": "seggpt",
+  "num_attention_heads": 16,
+  "num_channels": 3,
+  "num_hidden_layers": 24,
+  "patch_size": 16,
+  "pretrain_image_size": 224,
+  "qkv_bias": true,
+  "torch_dtype": "float32",
+  "transformers_version": "4.41.2",
+  "use_relative_position_embeddings": true
+}
